@@ -1,0 +1,128 @@
+/* Configurações globais */
+
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: #EFEFEF;
+}
+
+header {
+    background-color: #0be0e0;
+    padding: 20px;
+    
+}
+
+section {
+    width: 65vw;
+}
+
+header > menu {
+    text-align: right;
+    display: flex;
+    float: right;
+}
+
+menu > ul {
+    list-style-type: none;
+    padding: 1vw;
+}
+
+menu > ul > li{
+    display: inline;
+}
+
+menu > ul > li > a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #383F5D;
+}
+
+header > img {
+    width: 10vw;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section principal */
+section#principal > div#img-principal {
+    display: block;
+    text-align: center;
+}
+
+div#img-principal > img {
+    width: 65vw;
+}
+
+section#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#principal > div#txt-principal {
+    padding: 1vw;
+    width: 65vw;
+}
+
+
+div#txt-principal > h1 {
+    color:#383F5D;
+}
+p.txt-sobre {
+    padding: 12px;
+    text-align: justify;
+    
+}
+
+div#txt-principal > p.txt-sobre > span {
+    font-weight: bold;
+}
+
+section#quem-somos {
+    
+
+}
+
+#conteudo-quem-somos {
+   border: 1px solid red;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
+
+footer > div {
+    text-align: center;
+}
+
+footer > div > p {
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+}
+
+footer > div > img {
+    width: 10vw;
+    padding-bottom: 10px;
+}
