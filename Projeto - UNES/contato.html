@@ -13,7 +13,7 @@
 	<header>
 		<img src="imagens/logo.png" alt="logo UNES">
 
-		<menu>
+		<nav>
 			<ul>
 				<li>
 					<a href="index.html">Home</a> |
@@ -25,12 +25,45 @@
 					<a href="contato.html">Contato</a>
 				</li>
 			</ul>
-		</menu>
+		</nav>
+
 	</header>
+
+	<main>
+		<section id="contato">
+			<div>
+				<h1>Contato</h1>
+
+				<form action="" method="get">
+					<label for="inome">Nome</label>
+					<input type="text" name="nome" id="inome">
+					
+					<label for="iemail">E-mail</label>
+					<input type="email" name="email" id="iemail">
+					
+					<label for="iassunto">Assunto</label>
+					<select name="" id="iassunto">
+						<option value=""></option>
+						<option value="sugestao">Sugestão</option>
+						<option value="elogio">Elogio</option>
+						<option value="reclamacao">Reclamação</option>
+						<option value="informacao">Pedido de informação</option>
+					</select>
+
+					<label for="idescricao">Descrição</label>
+					<textarea name="descricao" id=idescricao" cols="30" rows="10"></textarea>
+
+					<input type="button" value="Enviar">
+				
+				</form>
+			</div>
+		</section>
+
+	</main>
 
 	<footer>
 		<div>
-			<p>Todos os direitos reservados</p>
+			<span>Todos os direitos reservados</span>
 			<img src="imagens/logo.png" alt="logo UNES">
 		</div>
 	</footer>

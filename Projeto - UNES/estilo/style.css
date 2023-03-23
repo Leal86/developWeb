@@ -19,26 +19,41 @@ header {
     
 }
 
-section {
-    width: 65vw;
+h1 {
+    margin: 2px 0px 15px 0px;
 }
 
-header > menu {
+p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+section {
+    width: 99vw;
+    
+}
+
+hr {
+    width: 57vw;
+    margin: auto;
+}
+
+header > nav {
     text-align: right;
     display: flex;
     float: right;
 }
 
-menu > ul {
+nav > ul {
     list-style-type: none;
     padding: 1vw;
 }
 
-menu > ul > li{
+nav > ul > li{
     display: inline;
 }
 
-menu > ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     padding: 12px;
     font-size: 1.2vw;
@@ -49,6 +64,7 @@ menu > ul > li > a {
 header > img {
     width: 10vw;
     display: inline-block;
+    margin-left: 18vw;
 }
 
 main {
@@ -58,14 +74,17 @@ main {
     align-items: center;
 }
 
-/* Section principal */
+
+/* Página principal */
+
+
 section#principal > div#img-principal {
     display: block;
     text-align: center;
 }
 
 div#img-principal > img {
-    width: 65vw;
+    width: 55vw;
 }
 
 section#principal {
@@ -77,31 +96,46 @@ section#principal {
 
 section#principal > div#txt-principal {
     padding: 1vw;
-    width: 65vw;
+    width: 57vw;
 }
 
 
 div#txt-principal > h1 {
     color:#383F5D;
 }
-p.txt-sobre {
+p.txt {
     padding: 12px;
     text-align: justify;
     
 }
 
-div#txt-principal > p.txt-sobre > span {
+div#txt-principal > p.txt > span {
     font-weight: bold;
 }
 
+
+/* Página Quem Somos*/
+
+
 section#quem-somos {
-    
+    margin-top: 30px;
+}
+
+section#quem-somos > div {
+    width: 57vw;
+    margin: auto;
+}
+
+#lista-motivos > ol {
+    margin: 25px 0px 20px 40px;
 
 }
 
-#conteudo-quem-somos {
-   border: 1px solid red;
+section#quem-somos > div#txt-objetivos {
+    margin-bottom: 11.5vw;
 }
+
+/* Página de contato */
 
 
 
@@ -110,13 +144,14 @@ section#quem-somos {
 
 footer {
     background-color: black;
+    padding: 20px;
 }
 
 footer > div {
     text-align: center;
 }
 
-footer > div > p {
+footer > div > span {
     color: white;
     padding: 20px;
     font-weight: 700;
@@ -124,5 +159,7 @@ footer > div > p {
 
 footer > div > img {
     width: 10vw;
-    padding-bottom: 10px;
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
