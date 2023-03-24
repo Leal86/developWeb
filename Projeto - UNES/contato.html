@@ -31,30 +31,38 @@
 
 	<main>
 		<section id="contato">
-			<div>
+			<div id="formulario">
 				<h1>Contato</h1>
 
 				<form action="" method="get">
-					<label for="inome">Nome</label>
-					<input type="text" name="nome" id="inome">
-					
-					<label for="iemail">E-mail</label>
-					<input type="email" name="email" id="iemail">
-					
-					<label for="iassunto">Assunto</label>
-					<select name="" id="iassunto">
-						<option value=""></option>
-						<option value="sugestao">Sugestão</option>
-						<option value="elogio">Elogio</option>
-						<option value="reclamacao">Reclamação</option>
-						<option value="informacao">Pedido de informação</option>
-					</select>
+					<fieldset>
+						<legend>Seus dados</legend>
+						<label for="inome">Nome</label>
+						<input type="text" name="nome" id="inome" required><br>
 
-					<label for="idescricao">Descrição</label>
-					<textarea name="descricao" id=idescricao" cols="30" rows="10"></textarea>
+						<label for="iemail">E-mail</label>
+						<input type="email" name="email" id="iemail" required><br>
 
-					<input type="button" value="Enviar">
-				
+
+						<div id="assunto">
+							<label for="iassunto" class="assunto">Assunto</label>
+							<select name="" id="iassunto" required>
+								<option value=""></option>
+								<option value="sugestao">Sugestão</option>
+								<option value="elogio">Elogio</option>
+								<option value="reclamacao">Reclamação</option>
+								<option value="informacao">Pedido de informação</option>
+							</select>
+						</div>
+
+						<div id="descricao">
+							<label for="idescricao" class="assunto lb-descricao">Descrição</label>
+							<textarea name="descricao" id=idescricao" cols="30" rows="10"></textarea>
+						</div>
+
+						<input type="button" value="Enviar" onclick="alert('Dados enviados com sucesso!')">
+					</fieldset>
+
 				</form>
 			</div>
 		</section>

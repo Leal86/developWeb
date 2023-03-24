@@ -137,8 +137,75 @@ section#quem-somos > div#txt-objetivos {
 
 /* Página de contato */
 
+section#contato {
+    text-align: center;
+}
 
+label {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
 
+.lb-descricao {
+    margin: 0px 0px 0px 20px;
+    padding: 4px;
+}
+
+input {
+    width: 33vw;
+    height: 4vh;
+    margin: 15px 0 15px 15px;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    width: 30%;
+    height: 3vw;
+    cursor: pointer;
+
+}
+
+select {
+    width: 10vw;
+    height: 4vh;
+    margin: 15px 3px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 33vw;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#formulario {
+    width: 40%;
+    height: 70.5vh;
+    margin: 30px auto;
+   
+}
+
+fieldset {
+    border-radius: 0px 15px 15px 0px;
+}
+
+legend {
+    text-align: left;
+    margin-left: 15px;
+}
+
+div#assunto{
+    text-align: left;
+    margin: 10px 0px 20px 20px;
+}
+
+div#descricao {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 /* Footer */
 
