@@ -138,25 +138,30 @@ section#quem-somos > div#txt-objetivos {
 /* Página de contato */
 
 section#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 label {
     display: inline-block;
-    padding: 10px;
+    margin-right: 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .lb-descricao {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 19px;
     padding: 4px;
 }
 
 input {
     width: 33vw;
     height: 4vh;
-    margin: 15px 0 15px 15px;
+    margin: 15px 0px 15px 19px;
     border-radius: 5px;
+    outline: unset;
 }
 
 input[type=button] {
@@ -164,6 +169,10 @@ input[type=button] {
     height: 3vw;
     cursor: pointer;
 
+}
+
+input:focus, textarea:focus {
+    background-color: #EFEFEF;
 }
 
 select {
@@ -177,22 +186,25 @@ textarea {
     width: 33vw;
     margin-left: 5px;
     border-radius: 5px;
+    outline: unset;
 }
 
 #formulario {
     width: 40%;
     height: 70.5vh;
     margin: 30px auto;
-   
 }
 
 fieldset {
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 15px;
+    padding: 0px;
+    background-color: #e0e0e0;
 }
 
 legend {
-    text-align: left;
-    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 div#assunto{
@@ -200,9 +212,13 @@ div#assunto{
     margin: 10px 0px 20px 20px;
 }
 
+#iassunto {
+    margin-left: 11px;
+}
+
 div#descricao {
-    text-align: left;
     display: flex;
+    text-align: left;
     align-items: center;
     margin-bottom: 20px;
 }
