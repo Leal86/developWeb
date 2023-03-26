@@ -32,7 +32,7 @@
 	<main>
 		<section id="contato">
 			<div id="formulario">
-				<h1>Contato</h1>
+				<h1 id="titulo-contato">Contato</h1>
 
 				<form action="index.html" method="get">
 					<fieldset>
@@ -43,25 +43,24 @@
 						<label for="iemail">E-mail</label>
 						<input type="email" name="email" id="iemail" required><br>
 
-
-						<div id="assunto">
-							<label for="iassunto" class="assunto">Assunto</label>
-							<select name="" id="iassunto" required>
-								<option value=""></option>
-								<option value="sugestao">Sugestão</option>
-								<option value="elogio">Elogio</option>
-								<option value="reclamacao">Reclamação</option>
-								<option value="informacao">Pedido de informação</option>
-							</select>
-						</div>
+						<label for="iassunto" class="lbl-assunto">Assunto</label>
+						<select name="" id="iassunto" required>
+							<option value=""></option>
+							<option value="sugestao">Sugestão</option>
+							<option value="elogio">Elogio</option>
+							<option value="reclamacao">Reclamação</option>
+							<option value="informacao">Pedido de informação</option>
+						</select><br>
 
 						<div id="descricao">
-							<label for="idescricao" class="assunto lb-descricao">Descrição</label>
+							<label for="idescricao" class="lbl-descricao">Descrição</label>
 							<textarea name="descricao" id="idescricao" cols="30" rows="10"></textarea>
 						</div>
 
-						<input type="button" value="Cancelar" type="reset" id="cancelar">
-						<input type="button" value="Enviar" onclick="alert('Dados enviados com sucesso!')">
+						<div id="group-btn">
+							<input type="button" value="Cancelar" type="reset" id="cancelar">
+							<input type="button" value="Enviar" onclick="alert('Dados enviados com sucesso!')">
+						</div>
 
 					</fieldset>
 

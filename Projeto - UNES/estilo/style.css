@@ -62,7 +62,8 @@ nav > ul > li > a {
 }
 
 header > img {
-    width: 10vw;
+    width: 200px;
+    min-width: 150px;
     display: inline-block;
     margin-left: 18vw;
 }
@@ -72,6 +73,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -139,51 +142,86 @@ section#quem-somos > div#txt-objetivos {
 
 section#contato {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+#formulario {
+    min-width: 50%;
+    margin: 5px auto 5px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #2e4e59;
+    border: none;
+}
+
+h1#titulo-contato {
+    color: #dcdcdc;
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 15px;
+    margin: 20px;
+    text-align: auto;
+}
+
+legend {
+    color: rgb(212, 212, 212);
+    font-size: 1.5em;
+    font-weight: 600;
     text-align: center;
 }
 
 label {
     display: inline-block;
-    margin-right: 10px;
+    margin: 10px;
     cursor: pointer;
     font-weight: bold;
-}
-
-.lb-descricao {
-    margin: 0px 0px 0px 19px;
-    padding: 4px;
+    color: rgb(217, 215, 215);
 }
 
 input {
-    width: 33vw;
-    height: 5vh;
-    margin: 15px 0px 15px 19px;
+    width: 85%;
+    height: 45px;
+    margin: 20px 25px;
     border-radius: 10px;
     border: none;
     outline: unset;
-    background-color: #f2efef;
+    background-color: #cacaca;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.202);
 }
 
+#iassunto {
+    margin: 20px 10px 40px 10px;
+}
+
+.lbl-assunto {
+    
+}
+
 select {
-    width: 10vw;
-    height: 4vh;
-    margin: 15px 3px;
+    width: 40%;
+    height: 45px;
+    margin: 5px 0px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    background-color: #f2efef;
+    background-color: #cacaca;
+}
+
+div#descricao {
+    display: flex;
+    align-items: center;
 }
 
 textarea {
-    width: 33vw;
+    width: 85%;
     margin-left: 5px;
     border-radius: 10px;
     border: none;
     outline: unset;
-    background-color: #f2efef;
+    background-color: #cacaca;
     
 }
 
@@ -192,50 +230,19 @@ input:focus, textarea:focus, select:focus {
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.202);
 }
 
-#formulario {
-    width: 40%;
-    height: 70.5vh;
-    margin: 30px auto;
-}
-
-fieldset {
-    border-radius: 15px;
-    padding: 0px;
-    background-color: #dddddd;
-    border: none;
-}
-
-legend {
-    color: rgb(0, 0, 0);
-    font-size: 1.5em;
-    font-weight: 600;
-}
-
-div#assunto{
-    text-align: left;
-    margin: 10px 0px 20px 20px;
-}
-
-#iassunto {
-    margin-left: 11px;
-}
-
-div#descricao {
+div#group-btn {
     display: flex;
-    text-align: left;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: space-around;
+    margin: 20px;
 }
 
 input[type=button] {
-    width: 30%;
-    height: 3vw;
+    width: 25%;
+    height: 65px;
+    background-color: #0be0e0;
     cursor: pointer;
 }
 
-button {
-    background-color: #0be0e0;
-}
 
 /* Footer */
 
