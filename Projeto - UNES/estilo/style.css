@@ -158,35 +158,38 @@ label {
 
 input {
     width: 33vw;
-    height: 4vh;
+    height: 5vh;
     margin: 15px 0px 15px 19px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
     outline: unset;
-}
-
-input[type=button] {
-    width: 30%;
-    height: 3vw;
-    cursor: pointer;
-
-}
-
-input:focus, textarea:focus {
-    background-color: #EFEFEF;
+    background-color: #f2efef;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.202);
 }
 
 select {
     width: 10vw;
     height: 4vh;
     margin: 15px 3px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f2efef;
 }
 
 textarea {
     width: 33vw;
     margin-left: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
     outline: unset;
+    background-color: #f2efef;
+    
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.202);
 }
 
 #formulario {
@@ -198,7 +201,8 @@ textarea {
 fieldset {
     border-radius: 15px;
     padding: 0px;
-    background-color: #e0e0e0;
+    background-color: #dddddd;
+    border: none;
 }
 
 legend {
@@ -221,6 +225,16 @@ div#descricao {
     text-align: left;
     align-items: center;
     margin-bottom: 20px;
+}
+
+input[type=button] {
+    width: 30%;
+    height: 3vw;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0be0e0;
 }
 
 /* Footer */
