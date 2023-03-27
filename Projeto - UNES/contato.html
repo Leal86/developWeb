@@ -40,11 +40,11 @@
 						<label for="inome">Nome</label>
 						<input type="text" name="nome" id="inome" required><br>
 
-						<label for="iemail">E-mail</label>
+						<label for="iemail" id="lbl-email">E-mail</label>
 						<input type="email" name="email" id="iemail" required><br>
 
-						<label for="iassunto" class="lbl-assunto">Assunto</label>
-						<select name="" id="iassunto" required>
+						<label for="iassunto" id="lbl-assunto">Assunto</label>
+						<select name="" required>
 							<option value=""></option>
 							<option value="sugestao">Sugestão</option>
 							<option value="elogio">Elogio</option>
@@ -58,8 +58,8 @@
 						</div>
 
 						<div id="group-btn">
-							<input type="button" value="Cancelar" type="reset" id="cancelar">
-							<input type="button" value="Enviar" onclick="alert('Dados enviados com sucesso!')">
+							<input type="reset" value="Cancelar" id="cancelar">
+							<input type="submit" value="Enviar" onclick="alert('Dados enviados com sucesso!')">
 						</div>
 
 					</fieldset>

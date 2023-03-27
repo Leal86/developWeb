@@ -46,7 +46,7 @@ header > nav {
 
 nav > ul {
     list-style-type: none;
-    padding: 1vw;
+    padding: 0.8vw;
 }
 
 nav > ul > li{
@@ -55,17 +55,16 @@ nav > ul > li{
 
 nav > ul > li > a {
     text-decoration: none;
-    padding: 12px;
-    font-size: 1.2vw;
+    padding: 2px;
+    font-size: 2.5vw;
     font-weight: 600;
     color: #383F5D;
 }
 
 header > img {
-    width: 200px;
-    min-width: 150px;
+    width: 30vw; 
     display: inline-block;
-    margin-left: 18vw;
+    margin-left: 3vw;
 }
 
 main {
@@ -87,7 +86,7 @@ section#principal > div#img-principal {
 }
 
 div#img-principal > img {
-    width: 55vw;
+    width: 100vw;
 }
 
 section#principal {
@@ -99,12 +98,13 @@ section#principal {
 
 section#principal > div#txt-principal {
     padding: 1vw;
-    width: 57vw;
+    width: 90%;
 }
 
 
 div#txt-principal > h1 {
     color:#383F5D;
+    text-align: center;
 }
 p.txt {
     padding: 12px;
@@ -121,15 +121,19 @@ div#txt-principal > p.txt > span {
 
 
 section#quem-somos {
-    margin-top: 30px;
+    margin-top: 0px;
+    width: 100%;
 }
 
-section#quem-somos > div {
-    width: 57vw;
+h1.titulo-quem-somos{
+    padding: 15px 0px 0px 10px;
+}
+section#quem-somos > div.txt-quem-somos {
+    width: 95%;
     margin: auto;
 }
 
-#lista-motivos > ol {
+ol#lista-motivos {
     margin: 25px 0px 20px 40px;
 
 }
@@ -141,18 +145,23 @@ section#quem-somos > div#txt-objetivos {
 /* Página de contato */
 
 section#contato {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #formulario {
-    min-width: 50%;
-    margin: 5px auto 5px auto;
-    padding: 20px;
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
     border-radius: 15px;
     background-color: #2e4e59;
     border: none;
+}
+
+form {
+    width: 100%;
 }
 
 h1#titulo-contato {
@@ -162,29 +171,37 @@ h1#titulo-contato {
 
 fieldset {
     border-radius: 15px;
-    margin: 20px;
-    text-align: auto;
+    margin: 5px;
 }
 
 legend {
     color: rgb(212, 212, 212);
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 }
 
 label {
-    display: inline-block;
+    display: block;
     margin: 10px;
     cursor: pointer;
     font-weight: bold;
     color: rgb(217, 215, 215);
 }
 
+#lbl-email, #lbl-assunto, #lbl-descricao {
+    margin-top: 30px;
+}
+
+#lbl-assunto{
+    display: inline-block;
+    margin: 70px 8px;
+}
+
 input {
-    width: 85%;
+    width: 97%;
     height: 45px;
-    margin: 20px 25px;
+    margin: 0px 5px;
     border-radius: 10px;
     border: none;
     outline: unset;
@@ -192,16 +209,9 @@ input {
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.202);
 }
 
-#iassunto {
-    margin: 20px 10px 40px 10px;
-}
-
-.lbl-assunto {
-    
-}
-
 select {
-    width: 40%;
+    margin: 0px 0px 0px 0px;
+    width: 74%;
     height: 45px;
     margin: 5px 0px;
     border-radius: 10px;
@@ -210,14 +220,15 @@ select {
     background-color: #cacaca;
 }
 
+
+
 div#descricao {
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 textarea {
-    width: 85%;
-    margin-left: 5px;
+    width: 95%;
+    margin: 10px;
     border-radius: 10px;
     border: none;
     outline: unset;
@@ -236,18 +247,29 @@ div#group-btn {
     margin: 20px;
 }
 
-input[type=button] {
-    width: 25%;
+input[type=reset], input[type=submit] {
+    width: 40%;
     height: 65px;
-    background-color: #0be0e0;
     cursor: pointer;
 }
 
+input[type=reset] {
+    background-color: rgb(189, 6, 6);
+    color: white;
+    font-size: 1.2em;
+}
+
+input[type=submit] {
+    background-color: #04caca;
+    color: black;
+    font-size: 1.2em;
+}
 
 /* Footer */
 
 footer {
     background-color: black;
+    margin: 5px 0px 0px 0px;
     padding: 20px;
 }
 
@@ -258,11 +280,12 @@ footer > div {
 footer > div > span {
     color: white;
     padding: 20px;
+    font-size: 0.7em;
     font-weight: 700;
 }
 
 footer > div > img {
-    width: 10vw;
+    width: 35vw;
     display: block;
     margin: auto;
     padding: 10px;
