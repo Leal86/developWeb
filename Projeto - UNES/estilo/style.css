@@ -26,6 +26,7 @@ h1 {
 p {
     text-align: justify;
     font-size: 1em;
+    line-height: 1.5em;
 }
 
 section {
@@ -143,7 +144,7 @@ hr {
 
 ol#lista-motivos {
     margin: 25px 0px 20px 40px;
-
+    line-height: 1.5em;
 }
 
 section#quem-somos > div#txt-objetivos {
@@ -219,7 +220,7 @@ input {
 
 select {
     margin: 0px 0px 0px 0px;
-    width: 74%;
+    width: 45%;
     height: 45px;
     margin: 5px 0px;
     border-radius: 10px;
@@ -234,7 +235,7 @@ div#descricao {
 
 textarea {
     width: 95%;
-    margin: 10px;
+    margin: 18px;
     border-radius: 10px;
     border: none;
     outline: unset;
@@ -314,18 +315,18 @@ footer > div > img {
     }
 
     nav > ul > li > a {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
 
     /* Página Principal */
 
     div#img-principal > img {
-        width: 90vw;
+        width: 100vw;
     }
 
     section#principal > div#txt-principal {
-        padding: 20px;
+        padding: 10px 20px 3px 20px;
         width: 90%;
     }
 
@@ -335,12 +336,19 @@ footer > div > img {
      section#quem-somos > div.txt-quem-somos {
         width: 80%;
         margin: auto;
-        margin-bottom: 40.5px;
     }
 
 
 
     /* Página Contato */
+    div#formulario{
+        margin: 30px 0px 20px 0px;
+    }
+
+    textarea#idescricao {
+        margin: ;    
+    }
+
     label{
         display: inline;
     }
@@ -353,7 +361,7 @@ footer > div > img {
         width: 35%;
     }
     input {
-        width: 90%;
+        width: 85%;
     }
 
     #inome{
@@ -361,7 +369,9 @@ footer > div > img {
     }
 
     textarea {
-        width: 98%;
+        width: 85%;
+        display: block;
+        margin: 20px auto 20px 80px;
     }
 
     input[type=reset], input[type=submit] {
@@ -372,7 +382,7 @@ footer > div > img {
 
     /* Rodapé */
     footer {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     footer > div > span {
@@ -391,7 +401,7 @@ footer > div > img {
 }
 
 
-@media screen and (min-width:769px) and (max-width:1279px) {
+@media screen and (min-width:1024px) and (max-width:1279px) {
     /* Cabeçalho */
     /* Página Principal */
     /* Página Quem Somos */
