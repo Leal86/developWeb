@@ -42,6 +42,7 @@ header > nav {
     text-align: right;
     display: flex;
     float: right;
+    margin-top: 5px;
 }
 
 nav > ul {
@@ -55,13 +56,16 @@ nav > ul > li{
 
 nav > ul > li > a {
     text-decoration: none;
-    padding: 2px;
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-weight: 600;
     color: #383F5D;
 }
 
-header > img {
+nav > ul > li > a:hover {
+    color: goldenrod;
+}
+
+header > a > img {
     width: 30vw; 
     display: inline-block;
     margin-left: 3vw;
@@ -131,6 +135,10 @@ h1.titulo-quem-somos{
 section#quem-somos > div.txt-quem-somos {
     width: 95%;
     margin: auto;
+}
+
+hr {
+    width: 78%;
 }
 
 ol#lista-motivos {
@@ -220,8 +228,6 @@ select {
     background-color: #cacaca;
 }
 
-
-
 div#descricao {
     display: block;
 }
@@ -269,7 +275,7 @@ input[type=submit] {
 
 footer {
     background-color: black;
-    margin: 5px 0px 0px 0px;
+    margin: 9px 0px 0px 0px;
     padding: 20px;
 }
 
@@ -289,4 +295,114 @@ footer > div > img {
     display: block;
     margin: auto;
     padding: 10px;
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    /* Cabeçalho */
+    /* Página Principal */
+    /* Página Quem Somos */
+    /* Página Contato */
+    /* Rodapé */
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    
+    /* Cabeçalho */
+    header > a > img {
+        width: 20vw;
+    }
+
+    nav > ul > li > a {
+        font-size: 1.3em;
+    }
+
+
+    /* Página Principal */
+
+    div#img-principal > img {
+        width: 90vw;
+    }
+
+    section#principal > div#txt-principal {
+        padding: 20px;
+        width: 90%;
+    }
+
+
+
+     /* Página Quem Somos */
+     section#quem-somos > div.txt-quem-somos {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40.5px;
+    }
+
+
+
+    /* Página Contato */
+    label{
+        display: inline;
+    }
+
+    #lbl-assunto {
+        margin: 45px 0px 85px 10px;
+    }
+
+    select {
+        width: 35%;
+    }
+    input {
+        width: 90%;
+    }
+
+    #inome{
+        margin: 20px 8px;
+    }
+
+    textarea {
+        width: 98%;
+    }
+
+    input[type=reset], input[type=submit] {
+        width: 20%;
+
+    }
+
+
+    /* Rodapé */
+    footer {
+        margin-top: 20px;
+    }
+
+    footer > div > span {
+        color: white;
+        padding: 20px;
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    footer > div > img {
+        width: 20vw;
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+    /* Cabeçalho */
+    /* Página Principal */
+    /* Página Quem Somos */
+    /* Página Contato */
+    /* Rodapé */
+}
+
+@media screen and (min-width:1280px) {
+    /* Cabeçalho */
+    /* Página Principal */
+    /* Página Quem Somos */
+    /* Página Contato */
+    /* Rodapé */
 }
