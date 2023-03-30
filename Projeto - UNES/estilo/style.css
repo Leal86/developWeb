@@ -1,7 +1,7 @@
-/* Configurações globais */
-
 @charset "UTF-8";
 
+
+/* Configurações globais */
 * {
     margin: 0;
     padding: 0;
@@ -356,10 +356,6 @@ footer > div#desenvolvedor > p > a:hover {
         width: 80%
     }
 
-    textarea#idescricao {
-        margin: ;    
-    }
-
     label{
         display: block;
     }
@@ -468,9 +464,6 @@ footer > div#desenvolvedor > p > a:hover {
         width: 80%
     }
 
-    textarea#idescricao {
-        margin: ;    
-    }
 
     label{
         display: inline;
@@ -568,10 +561,6 @@ footer > div#desenvolvedor > p > a:hover {
     div#formulario{
         width: 60%;
         margin: 30px 0px 20px 0px;
-    }
-
-    textarea#idescricao {
-        margin: ;    
     }
 
     label{
@@ -675,10 +664,6 @@ footer > div#desenvolvedor > p > a:hover {
     div#formulario{
         width: 750px;
         margin: 30px 0px 20px 0px;
-    }
-
-    textarea#idescricao {
-        margin: ;    
     }
 
     label{
