@@ -306,6 +306,27 @@ footer > div > img {
     padding: 10px;
 }
 
+footer > div#desenvolvedor {
+    padding: 15px;
+    width: 100%;
+}
+
+footer > div#desenvolvedor > p {
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+
+footer > div#desenvolvedor > p > a {
+    color: #04caca;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer > div#desenvolvedor > p > a:hover {
+    color: #02f3f3;
+}
+
 
 @media screen and (min-width:481px) and (max-width:768px) {
     /* Cabeçalho */
@@ -390,6 +411,18 @@ footer > div > img {
         margin: auto;
         padding: 10px;
     }
+
+    footer > div#desenvolvedor {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    footer > div#desenvolvedor > p {
+        text-align: center;
+        color: white;
+        font-size: 0.8em;
+    }
+    
 }
 
 @media screen and (min-width:769px) and (max-width:1023px) {
@@ -488,6 +521,17 @@ footer > div > img {
         margin: auto;
         padding: 10px;
     }
+
+    footer > div#desenvolvedor {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    footer > div#desenvolvedor > p {
+        text-align: center;
+        color: white;
+        font-size: 0.9em;
+    }
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
@@ -579,6 +623,16 @@ footer > div > img {
         margin: auto;
         padding: 10px;
     }
+    footer > div#desenvolvedor {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    footer > div#desenvolvedor > p {
+        text-align: center;
+        color: white;
+        font-size: 0.9em;
+    }
 }
 
 @media screen and (min-width:1280px) {
@@ -603,7 +657,7 @@ footer > div > img {
     }
 
     section#principal > div#txt-principal {
-        padding: 10px 20px 3px 20px;
+        padding: 10px 20px 56px 20px;
         width: 750px;
     }
 
@@ -676,4 +730,16 @@ footer > div > img {
         margin: auto;
         padding: 10px;
     }
+
+    footer > div#desenvolvedor {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    footer > div#desenvolvedor > p {
+        text-align: center;
+        color: white;
+        font-size: 1em;
+    }
+
 }
