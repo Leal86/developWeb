@@ -235,7 +235,7 @@ div#descricao {
 
 textarea {
     width: 95%;
-    margin: 18px;
+    margin: 8px;
     border-radius: 10px;
     border: none;
     outline: unset;
@@ -302,11 +302,15 @@ footer > div > img {
 @media screen and (min-width:481px) and (max-width:768px) {
     /* Cabeçalho */
     header > a > img {
-        width: 20vw;
+        width: 25vw;
+    }
+
+    nav{
+        padding: 6px 6px 0px 0px;
     }
 
     nav > ul > li > a {
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
 
 
@@ -316,6 +320,106 @@ footer > div > img {
         width: 80%;
         margin: auto;
     }
+
+    /* Página Contato */
+    div#formulario{
+        margin: 30px 0px 20px 0px;
+        width: 80%
+    }
+
+    textarea#idescricao {
+        margin: ;    
+    }
+
+    label{
+        display: block;
+    }
+
+    #lbl-assunto {
+        margin: 45px 10px 45px 10px;
+    }
+
+    select {
+        width: 35%;
+    }
+    input {
+        width: 95%;
+    }
+
+    #inome, #iemail{
+        margin: 0px 8px;
+    }
+
+
+
+    textarea {
+        width: 90%;
+        display: block;
+        margin: 20px auto 20px auto;
+    }
+
+    input[type=reset], input[type=submit] {
+        width: 40%;
+
+    }
+
+
+    /* Rodapé */
+    footer {
+        margin-top: 10px;
+    }
+
+    footer > div > span {
+        color: white;
+        padding: 20px;
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    footer > div > img {
+        width: 20vw;
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    
+    /* Cabeçalho */
+    header > a > img {
+        width: 220px;
+        margin-left: 5vw;
+    }
+
+    nav{
+        padding: 6px 10px 0px 0px;
+    }
+    nav > ul > li > a {
+        font-size: 1em;
+    }
+
+
+    /* Página Principal */
+
+    div#img-principal > img {
+        width: 100vw;
+    }
+
+    section#principal > div#txt-principal {
+        padding: 10px 20px 3px 20px;
+        width: 90%;
+    }
+
+
+
+     /* Página Quem Somos */
+     section#quem-somos > div.txt-quem-somos {
+        width: 80%;
+        margin: auto;
+    }
+
+
 
     /* Página Contato */
     div#formulario{
@@ -349,7 +453,7 @@ footer > div > img {
     textarea {
         width: 90%;
         display: block;
-        margin: 20px auto 20px 30px;
+        margin: 20px auto 20px 36px;
     }
 
     input[type=reset], input[type=submit] {
@@ -377,100 +481,6 @@ footer > div > img {
         padding: 10px;
     }
 }
-
-@media screen and (min-width:769px) and (max-width:1023px) {
-    
-    /* Cabeçalho */
-    header > a > img {
-        width: 20vw;
-    }
-
-    nav > ul > li > a {
-        font-size: 1.1em;
-    }
-
-
-    /* Página Principal */
-
-    div#img-principal > img {
-        width: 100vw;
-    }
-
-    section#principal > div#txt-principal {
-        padding: 10px 20px 3px 20px;
-        width: 90%;
-    }
-
-
-
-     /* Página Quem Somos */
-     section#quem-somos > div.txt-quem-somos {
-        width: 80%;
-        margin: auto;
-    }
-
-
-
-    /* Página Contato */
-    div#formulario{
-        margin: 30px 0px 20px 0px;
-    }
-
-    textarea#idescricao {
-        margin: ;    
-    }
-
-    label{
-        display: inline;
-    }
-
-    #lbl-assunto {
-        margin: 45px 0px 85px 10px;
-    }
-
-    select {
-        width: 35%;
-    }
-    input {
-        width: 85%;
-    }
-
-    #inome{
-        margin: 20px 8px;
-    }
-
-    textarea {
-        width: 85%;
-        display: block;
-        margin: 20px auto 20px 80px;
-    }
-
-    input[type=reset], input[type=submit] {
-        width: 20%;
-
-    }
-
-
-    /* Rodapé */
-    footer {
-        margin-top: 10px;
-    }
-
-    footer > div > span {
-        color: white;
-        padding: 20px;
-        font-size: 0.9em;
-        font-weight: 700;
-    }
-
-    footer > div > img {
-        width: 20vw;
-        display: block;
-        margin: auto;
-        padding: 10px;
-    }
-}
-
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
     /* Cabeçalho */
@@ -565,8 +575,97 @@ footer > div > img {
 
 @media screen and (min-width:1280px) {
     /* Cabeçalho */
+    header > a > img {
+        width: 220px;
+        margin-left: 19vw;
+    }
+
+    nav {
+        padding: 2px 50px 0px 0px;
+    }
+
+    nav > ul > li > a {
+        font-size: 1.2em;
+    }
+    
+    
     /* Página Principal */
+    div#img-principal > img {
+        max-width: 750px;
+    }
+
+    section#principal > div#txt-principal {
+        padding: 10px 20px 3px 20px;
+        width: 750px;
+    }
+
+
     /* Página Quem Somos */
+    section#quem-somos > div.txt-quem-somos {
+        width: 750px;
+        margin: auto;
+    }
+    hr {
+        width: 750px;
+    }
+
     /* Página Contato */
+    div#formulario{
+        width: 750px;
+        margin: 30px 0px 20px 0px;
+    }
+
+    textarea#idescricao {
+        margin: ;    
+    }
+
+    label{
+        display: inline;
+    }
+
+    #lbl-assunto {
+        margin: 45px 0px 85px 10px;
+    }
+
+    select {
+        max-width: 20%;
+    }
+    input {
+        max-width: 85%;
+    }
+
+    #inome{
+        margin: 20px 8px;
+    }
+
+    textarea {
+        max-width: 90%;
+        display: block;
+        margin: 20px auto 20px 40px;
+    }
+
+    input[type=reset], input[type=submit] {
+        max-width: 25%;
+
+    }
+
+
     /* Rodapé */
+    footer {
+        margin-top: 10px;
+    }
+
+    footer > div > span {
+        color: white;
+        padding: 20px;
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    footer > div > img {
+        width: 15vw;
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
 }
