@@ -5,9 +5,11 @@
 
 :root {
     /* Cores */
-    --fundo-menu: #9e9e91;
+    --background-menu: #9e9e91;
+    --background-texto1: #8d8a64;
+    --background-texto2: #fcfbecef;
     --cor-letra-menu: #5f6070;
-    --cor-letra-titulo: #888673;
+    --cor-letra-titulo: #535140;
 
     /* Fontes */
     --padrao: Arial, Helvetica, sans-serif;
@@ -29,8 +31,13 @@ body {
     background-image: url('../img/fundo.png');
 }
 
+section {
+    background-color: var(--background-texto2);
+}
+
 h2 {
     font-family: var(--titulo);
+    letter-spacing: 1px;
 }
 
 header {
@@ -39,14 +46,16 @@ header {
 
 h2 {
     padding: 10px 20px;
+    color: var(--cor-letra-titulo);
 }
 
 p {
     width: 90%;
     margin: auto;
     text-align: justify;
+    font-weight: 600;
     padding: 10px 0px;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 /* Página Principal */
@@ -61,7 +70,7 @@ div#img-principal > img#img-capa {
 }
 
 header > nav {
-    background-color: var(--fundo-menu);
+    background-color: var(--background-menu);
     text-align: center;
 }
 
@@ -72,10 +81,11 @@ nav > ul {
 
 nav > ul > li {
     display: inline;
-    padding: 3px;
+    padding: 5px;
 }
 
 .link-menu {
+    font-size: 0.9em;
     text-decoration: none;
     color: var(--cor-letra-menu);
     font-weight: 600;
@@ -84,6 +94,14 @@ nav > ul > li {
 .link-menu:hover {
     color: gold;
     
+}
+
+section#principal {
+    background-color: var(--background-texto2);
+}
+
+p.txt {
+    color: var(--background-texto);
 }
 
 /* Rodapé */
@@ -96,13 +114,13 @@ footer {
 
 h3 {
     color: #d8cbb3;
-    padding: 15px;
-    margin: auto;
+    padding: 25px;
 }
 
 footer > p {
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: center;
+    padding: 0px 0px 35px 0px;
 }
 
 footer > p > a {
