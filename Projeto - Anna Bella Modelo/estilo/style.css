@@ -5,8 +5,8 @@
 
 :root {
     /* Cores */
-    --fundo-menu: #D3D3BE;
-    --cor-letra-menu: #797A8A;
+    --fundo-menu: #9e9e91;
+    --cor-letra-menu: #5f6070;
     --cor-letra-titulo: #888673;
 
     /* Fontes */
@@ -31,4 +31,86 @@ body {
 
 h2 {
     font-family: var(--titulo);
+}
+
+header {
+    width: 100vw;
+}
+
+h2 {
+    padding: 10px 20px;
+}
+
+p {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding: 10px 0px;
+    line-height: 1.4em;
+}
+
+/* Página Principal */
+
+div#img-principal {
+    width: 100vw;
+    margin-bottom: -5px;
+}
+
+div#img-principal > img#img-capa {
+    width: 100%;
+}
+
+header > nav {
+    background-color: var(--fundo-menu);
+    text-align: center;
+}
+
+nav > ul {
+    text-decoration: none;
+    padding: 15px 0px;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 3px;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: var(--cor-letra-menu);
+    font-weight: 600;
+}
+
+.link-menu:hover {
+    color: gold;
+    
+}
+
+/* Rodapé */
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3 {
+    color: #d8cbb3;
+    padding: 15px;
+    margin: auto;
+}
+
+footer > p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+}
+
+footer > p > a:hover {
+    color: goldenrod;
 }
