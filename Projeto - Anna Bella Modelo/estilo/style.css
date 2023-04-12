@@ -58,6 +58,10 @@ p {
     line-height: 1.5em;
 }
 
+img {
+    width: 100%;
+}
+
 /* Página Principal */
 
 div#img-principal {
@@ -84,16 +88,24 @@ nav > ul > li {
     padding: 5px;
 }
 
-.link-menu {
+.link-menu:link {
     font-size: 0.9em;
     text-decoration: none;
     color: var(--cor-letra-menu);
     font-weight: 600;
 }
 
+.link-menu:visited {
+    color: rgba(170, 128, 21, 0.164);
+}
+
 .link-menu:hover {
     color: gold;
     
+}
+
+.link-menu:active {
+    color: gold;
 }
 
 section#principal {
