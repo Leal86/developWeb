@@ -116,6 +116,12 @@ p.txt {
     color: var(--background-texto);
 }
 
+/* Página de Campanhas Publicitárias*/
+
+.img-campanha {
+    border: 10px solid var(--background-menu);
+}
+
 /* Rodapé */
 
 footer {
