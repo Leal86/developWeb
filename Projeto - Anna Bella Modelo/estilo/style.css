@@ -122,6 +122,10 @@ p.txt {
     border: 10px solid var(--background-menu);
 }
 
+.contatos {
+    display: block;
+    padding: 15px 0px 10px 15px;
+}
 /* Rodapé */
 
 footer {
