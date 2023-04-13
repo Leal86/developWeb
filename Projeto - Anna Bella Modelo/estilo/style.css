@@ -38,15 +38,12 @@ section {
 h2 {
     font-family: var(--titulo);
     letter-spacing: 1px;
+    padding: 10px 20px;
+    color: var(--cor-letra-titulo);
 }
 
 header {
     width: 100vw;
-}
-
-h2 {
-    padding: 10px 20px;
-    color: var(--cor-letra-titulo);
 }
 
 p {
@@ -89,16 +86,17 @@ nav > ul > li {
 }
 
 .link-menu:link {
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     color: var(--cor-letra-menu);
     font-weight: 600;
 }
 
+/*
 .link-menu:visited {
-    color: rgba(170, 128, 21, 0.164);
+    color: rgba(68, 170, 21, 0.164);
 }
-
+*/
 .link-menu:hover {
     color: gold;
     
@@ -153,4 +151,71 @@ footer > p > a {
 
 footer > p > a:hover {
     color: goldenrod;
+}
+
+
+
+@media screen and (min-width:560px) and (max-width:768px) {
+
+    .txt {
+        width: 80%;
+        padding-bottom: 13.5px;
+    }
+    
+    
+    
+    /* Página Inicial */
+    
+    #titulo-home {
+        padding: 3vw 0vw 1vw 10vw;
+    }
+
+    nav > ul {
+        text-decoration: none;
+        padding: 23.5px 0px;
+    }
+    
+    nav > ul > li {
+        display: inline;
+        padding: 1.5vw;
+    }
+
+    .link-menu:link {
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    
+    
+    /* Página Biografia */
+
+    #titulo-biografia {
+        padding: 4vw 0vw 1vw 9vw;
+    }
+
+    
+    
+    /* Página de Campanhas */
+
+    #titulo-campanha {
+        padding: 4vw 0vw;
+    }
+
+    #section-campanhas {
+        text-align: center;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    /* Página de Contato */
+
+    #section-contato {
+        text-align: center;
+    }
+
+    #titulo-contato {
+        padding: 5vw 0vw 2vw 0vw;
+    }
 }
