@@ -161,7 +161,7 @@ h3 {
 }
 
 footer > p {
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-align: center;
     padding: 0px 0px 35px 0px;
 }
@@ -247,7 +247,68 @@ footer > p > a:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width:1279px) {
+    .txt {
+        width: 75%;
+        padding-bottom: 13.5px;
+    }
     
+    /* Página Inicial */
+
+    
+    
+    #titulo-home {
+        padding: 3vw 0vw 1vw 17.4vw;
+        font-size: 2em;
+    }
+
+    nav > ul {
+        text-decoration: none;
+        padding: 3vw 0px;
+    }
+    
+    nav > ul > li {
+        display: inline;
+        padding: 1.1vw;
+    }
+
+    .link-menu:link {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    /* Página Biografia */
+
+    #titulo-biografia {
+        padding: 4vw 0vw 1vw 17vw;
+        font-size: 2em;
+    }
+
+    /* Página de Campanhas */
+
+    #titulo-campanha {
+        padding: 3vw 0vw 1vw 0vw;
+        font-size: 1.8em;
+    }
+
+    #section-campanhas {
+        text-align: center;
+    }
+
+    img {
+        width: 75%;
+    }
+
+    /* Página de Contato */
+
+    #section-contato {
+        text-align: center;
+    }
+
+    #titulo-contato {
+        padding: 5vw 0vw 2vw 0vw;
+        font-size: 2em;
+    }
+
 
 }
 
