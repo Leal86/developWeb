@@ -4,14 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
-    /* Cores */
+    /********* Cores ***********/
     --background-menu: #9e9e91;
     --background-texto1: #8d8a64;
     --background-texto2: #fcfbecef;
     --cor-letra-menu: #5f6070;
     --cor-letra-titulo: #535140;
 
-    /* Fontes */
+    /************* Fontes *****************/
     --padrao: Arial, Helvetica, sans-serif;
     --titulo: 'Berkshire Swash', cursive;
     --titulo2:  'Pacifico', cursive;
@@ -47,7 +47,7 @@ header {
 }
 
 p {
-    width: 90%;
+    width: 85%;
     margin: auto;
     text-align: justify;
     font-weight: 600;
@@ -59,7 +59,7 @@ img {
     width: 100%;
 }
 
-/* Página Principal */
+/***************** Página Principal ******************/
 
 div#img-principal {
     width: 100vw;
@@ -110,11 +110,26 @@ section#principal {
     background-color: var(--background-texto2);
 }
 
+#titulo-home {
+    padding: 6vw 0vw 2vw 7vw;
+}
+
 p.txt {
     color: var(--background-texto);
 }
 
-/* Página de Campanhas Publicitárias*/
+/**************** Página Biografia ******************/
+
+#titulo-biografia {
+    padding: 6vw 0vw 1vw 6vw;
+}
+
+
+/**************** Página de Campanhas Publicitárias*****************/
+
+#titulo-campanha {
+    padding: 5vw 0vw 1vw 7vw;
+}
 
 .img-campanha {
     border: 10px solid var(--background-menu);
@@ -124,7 +139,15 @@ p.txt {
     display: block;
     padding: 15px 0px 10px 15px;
 }
-/* Rodapé */
+
+/************************* Página Contato *************************/
+
+#titulo-contato {
+    padding: 5vw 0vw 1vw 7vw;
+}
+
+
+/************************** Rodapé *******************************/
 
 footer {
     background-color: black;
@@ -155,7 +178,10 @@ footer > p > a:hover {
 
 
 
-@media screen and (min-width:560px) and (max-width:768px) {
+
+/*************************** Responsividade *****************************/
+
+@media screen and (min-width: 481px) and (max-width:768px) {
 
     .txt {
         width: 80%;
@@ -190,7 +216,7 @@ footer > p > a:hover {
     /* Página Biografia */
 
     #titulo-biografia {
-        padding: 4vw 0vw 1vw 9vw;
+        padding: 4vw 0vw 1vw 9.3vw;
     }
 
     
@@ -218,4 +244,13 @@ footer > p > a:hover {
     #titulo-contato {
         padding: 5vw 0vw 2vw 0vw;
     }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    
+
+}
+
+@media screen and (min-width: 1280px) {
+
 }
