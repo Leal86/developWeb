@@ -334,6 +334,10 @@ footer>p>a:hover {
 
 @media screen and (min-width: 1280px) {
 
+    html {
+        width: 100%;
+    }
+    
     header {
         width: 100%;
     }
@@ -353,7 +357,7 @@ footer>p>a:hover {
     /***************** Página Principal ******************/
 
     div#img-principal {
-        width: 100;
+        width: 100%;
         margin-bottom: -4px;
         text-align: center;
     }
