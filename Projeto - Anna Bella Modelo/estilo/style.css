@@ -14,7 +14,7 @@
     /************* Fontes *****************/
     --padrao: Arial, Helvetica, sans-serif;
     --titulo: 'Berkshire Swash', cursive;
-    --titulo2:  'Pacifico', cursive;
+    --titulo2: 'Pacifico', cursive;
 }
 
 
@@ -26,10 +26,15 @@
     font-family: var(--padrao);
 }
 
+header {
+    width: 100vw;
+}
 
 body {
     background-image: url('../img/fundo.png');
+    width: 100vw;
 }
+
 
 section {
     background-color: var(--background-texto2);
@@ -42,9 +47,7 @@ h2 {
     color: var(--cor-letra-titulo);
 }
 
-header {
-    width: 100vw;
-}
+
 
 p {
     width: 85%;
@@ -66,21 +69,21 @@ div#img-principal {
     margin-bottom: -5px;
 }
 
-div#img-principal > img#img-capa {
+div#img-principal>img#img-capa {
     width: 100%;
 }
 
-header > nav {
+header>nav {
     background-color: var(--background-menu);
     text-align: center;
 }
 
-nav > ul {
+nav>ul {
     text-decoration: none;
     padding: 15px 0px;
 }
 
-nav > ul > li {
+nav>ul>li {
     display: inline;
     padding: 5px;
 }
@@ -99,7 +102,7 @@ nav > ul > li {
 */
 .link-menu:hover {
     color: gold;
-    
+
 }
 
 .link-menu:active {
@@ -160,19 +163,19 @@ h3 {
     padding: 25px;
 }
 
-footer > p {
+footer>p {
     font-size: 0.8em;
     text-align: center;
     padding: 0px 0px 35px 0px;
 }
 
-footer > p > a {
+footer>p>a {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     color: gold;
 }
 
-footer > p > a:hover {
+footer>p>a:hover {
     color: goldenrod;
 }
 
@@ -187,21 +190,22 @@ footer > p > a:hover {
         width: 80%;
         padding-bottom: 13.5px;
     }
-    
-    
-    
+
+
+
     /* Página Inicial */
-    
+
     #titulo-home {
         padding: 3vw 0vw 1vw 10vw;
+        font-size: 1.8em;
     }
 
-    nav > ul {
+    nav>ul {
         text-decoration: none;
         padding: 23.5px 0px;
     }
-    
-    nav > ul > li {
+
+    nav>ul>li {
         display: inline;
         padding: 1.5vw;
     }
@@ -211,20 +215,22 @@ footer > p > a:hover {
         font-weight: 600;
     }
 
-    
-    
+
+
     /* Página Biografia */
 
     #titulo-biografia {
         padding: 4vw 0vw 1vw 9.3vw;
+        font-size: 1.8em;
     }
 
-    
-    
+
+
     /* Página de Campanhas */
 
     #titulo-campanha {
         padding: 4vw 0vw;
+        font-size: 1.8em;
     }
 
     #section-campanhas {
@@ -243,30 +249,37 @@ footer > p > a:hover {
 
     #titulo-contato {
         padding: 5vw 0vw 2vw 0vw;
+        font-size: 1.8em;
+    }
+
+    p.txt-contato {
+        width: 80%;
+        max-width: 950px;
+        margin-top: 0px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width:1279px) {
     .txt {
-        width: 75%;
+        width: 70%;
         padding-bottom: 13.5px;
     }
-    
+
     /* Página Inicial */
 
-    
-    
+
+
     #titulo-home {
-        padding: 3vw 0vw 1vw 17.4vw;
+        padding: 3vw 0vw 1vw 15vw;
         font-size: 2em;
     }
 
-    nav > ul {
+    nav>ul {
         text-decoration: none;
         padding: 3vw 0px;
     }
-    
-    nav > ul > li {
+
+    nav>ul>li {
         display: inline;
         padding: 1.1vw;
     }
@@ -279,7 +292,7 @@ footer > p > a:hover {
     /* Página Biografia */
 
     #titulo-biografia {
-        padding: 4vw 0vw 1vw 17vw;
+        padding: 4vw 0vw 1vw 14vw;
         font-size: 2em;
     }
 
@@ -287,7 +300,7 @@ footer > p > a:hover {
 
     #titulo-campanha {
         padding: 3vw 0vw 1vw 0vw;
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     #section-campanhas {
@@ -309,9 +322,119 @@ footer > p > a:hover {
         font-size: 2em;
     }
 
+    p.txt-contato {
+        width: 70%;
+    }
 
 }
 
 @media screen and (min-width: 1280px) {
+
+    header {
+        width: 100%;
+    }
+
+    body {
+        background-image: url('../img/fundo.png');
+        width: 100%;
+    }
+
+    p.txt {
+        width: 50%;
+        max-width: 950px;
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+
+    /***************** Página Principal ******************/
+
+    div#img-principal {
+        width: 100;
+        margin-bottom: -4px;
+        text-align: center;
+    }
+
+    div#img-principal>img#img-capa {
+        width: 55%;
+        max-width: 1020px;
+    }
+
+    header>nav {
+        background-color: var(--background-menu);
+        text-align: center;
+    }
+
+    nav>ul {
+        text-decoration: none;
+        padding: 20px 0px;
+    }
+
+    nav>ul>li {
+        display: inline;
+        padding: 1vw;
+    }
+
+    .link-menu:link {
+        font-size: 1.2em;
+    }
+
+    #titulo-home {
+        padding: 40px 0px 5px 0px;
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+
+    /* Página Biografia */
+
+    #titulo-biografia {
+        padding: 40px 0px 5px 0px;
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    /* Página de Campanhas */
+
+    #titulo-campanha {
+        padding: 40px 0px 5px 0px;
+        font-size: 2.3em;
+    }
+
+    #section-campanhas {
+        text-align: center;
+    }
+
+    img.img-campanha {
+        width: 53%;
+        margin-left: 8px;
+        max-width: 1020px;
+        box-shadow: 1px 1px 5px var(--background-texto1);
+    }
+
+
+    /* Página de Contato */
+
+    #section-contato {
+        text-align: center;
+    }
+
+    #titulo-contato {
+        padding: 40px 0px 5px 0px;
+        font-size: 2.3em;
+    }
+
+    p.txt-contato {
+        width: 50%;
+        max-width: 950px;
+        font-size: 1.2em;
+        margin-top: 0px;
+    }
+
+    img.img-contato {
+        width: 53%;
+        margin-left: 25px;
+        max-width: 1020px;
+        box-shadow: 5px 5px 8px 1px var(--background-menu);
+    }
 
 }
