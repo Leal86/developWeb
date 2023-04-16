@@ -30,8 +30,8 @@ header {
     width: 100vw;
 }
 
-body {
-    background-image: url('../img/fundo.png');
+html,body {
+    background: var(--background-texto1) url('../img/fundo.png');
     width: 100vw;
 }
 
