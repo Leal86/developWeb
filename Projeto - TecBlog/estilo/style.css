@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+/********* Fontes ********/
+
+
+
+/********* Cores *********/
+--fundo-cabecalho-titulos: #F7B602;
+--fundo-body: #E6E6E6;
+--fundo-categorias-rodape: #CCCCCC;
+--titulo-categorias: #565661;
+--cor-logo: #4E4E4E;
+}
