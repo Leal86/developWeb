@@ -25,12 +25,14 @@
     box-sizing: border-box;
     font-family: var(--padrao);
 }
-
+html {
+    background: var(--background-texto1);
+}
 header {
     width: 100vw;
 }
 
-html,body {
+body {
     background: var(--background-texto1) url('../img/fundo.png');
     width: 100vw;
 }
