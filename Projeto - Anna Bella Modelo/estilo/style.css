@@ -25,9 +25,11 @@
     box-sizing: border-box;
     font-family: var(--padrao);
 }
+
 html {
-    background: var(--background-texto1);
+    background: var(--background-texto1) url('../img/fundo.png');
 }
+
 header {
     width: 100vw;
 }
