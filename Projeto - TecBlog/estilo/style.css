@@ -12,3 +12,76 @@
 --titulo-categorias: #565661;
 --cor-logo: #4E4E4E;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--fundo-body);
+}
+
+/******** Página Inicial *****************************************************************************************/
+
+
+header {
+    background-color: var(--fundo-cabecalho-titulos);
+    height: 15vh;
+    text-align: center;
+}
+
+div#logo {
+    text-align: center;
+    padding: 19px 0px 10px 0px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: white;
+}
+
+div > span#inicio-logo {
+    color: var(--cor-logo);
+}
+
+nav > li {
+    display: inline;
+}
+
+nav > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+nav > li > a:link {
+    color: white;
+    font-weight: 600;
+}
+
+nav > li > a:visited {
+    color: var(--cor-logo);
+}
+
+nav > li > a:hover {
+    color: var(--cor-logo);
+}
+
+#section-postagens {
+    border: 1px solid red;
+}
+
+.postagem {
+    border: 1px solid aqua;
+    width: 60%;
+    margin: 5px 10px 7px 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.img-postagem {
+    width: 100%;
+}
+
