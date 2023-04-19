@@ -35,12 +35,11 @@ header {
 div#logo {
     text-align: center;
     padding: 19px 0px 10px 0px;
-    font-size: 1.8em;
     font-weight: bolder;
     color: white;
 }
 
-div > span#inicio-logo {
+#inicio-logo {
     color: var(--cor-logo);
 }
 
@@ -69,11 +68,9 @@ nav > li > a:hover {
 }
 
 #section-postagens {
-    border: 1px solid red;
 }
 
 .postagem {
-    border: 1px solid aqua;
     width: 60%;
     margin: 5px 10px 7px 10px;
     padding: 10px;
@@ -81,7 +78,26 @@ nav > li > a:hover {
 
 }
 
+h2 {
+    color: var(--fundo-cabecalho-titulos);
+    font-size: 1em;
+}
+
+.data-postagem {
+    font-size: 0.6em;
+}
+
 .img-postagem {
     width: 100%;
+}
+
+p {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.txt-laterais {
+    background-color: white;
+    width: 25%;
 }
 
