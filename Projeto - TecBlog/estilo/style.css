@@ -98,6 +98,10 @@ p {
     text-align: justify;
 }
 
+.txt-postagem {
+    line-height: 1.5;
+}
+
 .txt-laterais {
     background-color: white;
     width: 32%;
@@ -111,4 +115,78 @@ h5 {
     margin: 5px;
     padding: 3px;
     font-weight: 800;
+}
+
+.txt-noticia {
+    padding: 0px 0px 7px 5px;
+    width: 75%;
+}
+
+.link-lateral {
+    color: var(--fundo-cabecalho-titulos);
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 0.7em;
+}
+
+.link-leia_mais {
+    color: var(--fundo-cabecalho-titulos);
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    background-color: var(--cor-logo);
+    padding: 5px;
+    margin: 10px;
+}
+footer > p {
+    text-align: center;
+    color: var(--fundo-body);
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--fundo-cabecalho-titulos);
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #logo > h1 {
+        padding: 5px 0px 8px 0px;
+    }
+
+    .postagem {
+        width: 60%;
+        margin: 2vw 0vw 2vw 2vw;
+    }
+
+    aside.txt-laterais {
+        margin: 2vw 2vw 2vw 0vw;
+        width: 30%;
+    }
+
+    p.txt-noticia {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    footer {
+        margin: 2vw;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    
+}
+
+@media screen and (min-width: 1201px){
+    
 }
