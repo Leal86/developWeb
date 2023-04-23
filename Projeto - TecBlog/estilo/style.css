@@ -21,6 +21,7 @@
 
 body {
     background-color: var(--fundo-body);
+    text-align: center;
 }
 
 /******** Página Inicial *****************************************************************************************/
@@ -28,15 +29,16 @@ body {
 
 header {
     background-color: var(--fundo-cabecalho-titulos);
-    height: 15vh;
+    height: 12vh;
     text-align: center;
 }
 
 div#logo {
     text-align: center;
-    padding: 19px 0px 10px 0px;
+    padding: 12px 0px 8px 0px;
     font-weight: bolder;
     color: white;
+    font-size: 0.8em;
 }
 
 #inicio-logo {
@@ -50,25 +52,28 @@ nav > li {
 nav > li > a {
     text-decoration: none;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 5px;
 }
 
-nav > li > a:link {
+nav > li > a:link, a:visited  {
     color: white;
     font-weight: 600;
 }
 
-nav > li > a:visited {
-    color: var(--cor-logo);
-}
 
 nav > li > a:hover {
-    color: var(--cor-logo);
+    color: var(--fundo-cabecalho-titulos);
+    background-color: white;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
 }
 
 #section-postagens {
-    display: block;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0px;
+    width: 95%;
 }
 
 .postagem {
@@ -77,6 +82,7 @@ nav > li > a:hover {
     padding: 10px;
     background-color: white;
     float: left;
+    text-align: left;
 
 }
 
@@ -118,20 +124,21 @@ h5 {
 }
 
 .txt-noticia {
-    padding: 0px 0px 7px 5px;
+    padding: 0px 0px 7px 10px;
     width: 75%;
 }
 
 .link-lateral {
-    color: var(--fundo-cabecalho-titulos);
+    color: var(--fundo-cabecalho-titulos)!important;
     text-decoration: none;
     display: block;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 0.7em;
+    text-align: left;
 }
 
 .link-leia_mais {
-    color: var(--fundo-cabecalho-titulos);
+    color: var(--fundo-cabecalho-titulos)!important;
     text-decoration: none;
 }
 
@@ -148,7 +155,7 @@ footer > p {
 
 footer > p > a {
     text-decoration: none;
-    color: var(--fundo-cabecalho-titulos);
+    color: var(--fundo-cabecalho-titulos)!important;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
@@ -156,21 +163,26 @@ footer > p > a {
         padding: 5px 0px 8px 0px;
     }
 
+    body {
+        text-align: center;
+    }
+    section {
+        width: 95%;
+    }
     .postagem {
-        width: 60%;
-        margin: 2vw 0vw 2vw 2vw;
+        width: 60%;       
     }
 
     aside.txt-laterais {
-        margin: 2vw 2vw 2vw 0vw;
-        width: 30%;
+        max-width: 30%;
     }
 
     p.txt-noticia {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     h2 {
+        text-align: left;
         font-size: 1.2em;
     }
 
