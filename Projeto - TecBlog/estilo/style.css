@@ -29,13 +29,13 @@ body {
 
 header {
     background-color: var(--fundo-cabecalho-titulos);
-    height: 12vh;
+    height: 100px;
     text-align: center;
 }
 
 div#logo {
     text-align: center;
-    padding: 12px 0px 8px 0px;
+    padding: 15px 0px 18px 0px;
     font-weight: bolder;
     color: white;
     font-size: 0.8em;
@@ -160,7 +160,7 @@ footer > p > a {
 
 @media screen and (min-width: 481px) and (max-width: 768px){
     #logo > h1 {
-        padding: 5px 0px 8px 0px;
+        padding: 5px 0px 0px 0px;
     }
 
     body {
@@ -265,14 +265,14 @@ footer > p > a {
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
     header {
-        height: 15vh;
+        height: 150px;
         width: 90%;
         margin: auto;
     }
 
     h1 {
         font-size: 4em;
-        margin: 20px 0px;
+        margin: 8px 0px;
     }
 
     nav > li > a {
@@ -319,7 +319,7 @@ footer > p > a {
     }
     
     footer {
-        width: 90%;
+        width: 89.4%;
         height: 12vh;
         margin: auto;
     }
@@ -330,6 +330,69 @@ footer > p > a {
     }
 
 }
+
 @media screen and (min-width: 1201px){
-    
+    header {
+        max-width: 1024px;
+        height: 130px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 3.2em;
+        margin-bottom: 5px;
+    }
+
+    nav > li > a {
+        font-size: 1.1em;
+        padding: 10px 15px;
+    }
+
+    #section-postagens {
+        width: 1024px;
+    }
+
+    .postagem {
+        width: 735px;
+        margin: 10px 0px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .data-postagem {
+        font-size: 0.8em;
+    }
+
+    .txt-postagem {
+        font-size: 1em;
+    }
+
+    .txt-laterais {
+        width: 25%;
+        margin: 10px 0px;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+
+    .txt-noticia {
+        font-size: 1em;
+    }
+
+    .link-lateral {
+        font-size: 1.1em;
+    }
+
+    footer {
+        width: 1016px;
+        height: 70px;
+        margin: -5px auto;
+    }
+
+    footer > p {
+        padding: 10px 0px;
+    }
 }
