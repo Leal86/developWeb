@@ -51,13 +51,13 @@ nav > li {
 
 nav > li > a {
     text-decoration: none;
-    color: white;
+    color: var(--cor-logo);
     font-size: 0.8em;
     padding: 5px;
 }
 
 nav > li > a:link, a:visited  {
-    color: white;
+    color: var(--cor-logo);
     font-weight: 600;
 }
 
