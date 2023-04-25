@@ -166,19 +166,23 @@ footer > p > a {
     body {
         text-align: center;
     }
-    section {
-        width: 95%;
+    
+    #section-postagens {
+        width: 90%;
     }
+    
     .postagem {
-        width: 60%;       
+        width: 62%;
+        margin: 5px 0px;
     }
 
     aside.txt-laterais {
-        max-width: 30%;
+        max-width: 35%;
+        margin: 5px 0px;
     }
 
     p.txt-noticia {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     h2 {
@@ -187,12 +191,77 @@ footer > p > a {
     }
 
     footer {
-        margin: 2vw;
+        width: auto;
+        margin: auto;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
+    header {
+        height: 15vh;
+    }
     
+    #logo > h1 {
+        padding: 8px 0px;
+        font-size: 3em;
+    }
+
+    nav > li > a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.1em;
+        padding: 7px;
+    }
+
+    #section-postagens {
+        width: 90%;
+    }
+
+    .postagem {
+        width: 75%;
+        margin: 5px 0px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .data-postagem {
+        font-size: 0.7em;
+    }
+
+    .txt-postagem {
+        font-size: 1em;
+    }
+
+    aside.txt-laterais {
+        max-width: 21%;
+        margin: 5px 0px;
+    }
+
+    h5 {
+        font-size: 0.8em;
+    }
+
+    .txt-noticia {
+        font-size: 0.8em;
+    }
+
+    .link-lateral {
+        font-size: 1em;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0px;
+        height: 8vh;
+    }
+
+    footer > p {
+        font-size: 0.9em;
+        padding: 10px 0px 0px 6px;
+    }
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
