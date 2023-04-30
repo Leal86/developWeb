@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fundo-cabecalho: #294C71;
+}
+
+header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--fundo-cabecalho) url(../imagens/fundo.png) repeat-x left bottom;
+    background-size: contain;
+    padding: 10px 10px 20px 10px;
+    position: relative;
+    
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+    
+}
+
+.menu.show-menu {
+    display: block;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    margin-top: 200px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+    left: 100px;
+}
+
+.menu-toggle i {
+    color: #fff;
+}
+
+.show-menu {
+    display: block;
+}
+
+.logo {
+    background: url(../imagens/detalhe-topo.png) no-repeat bottom right;
+    background-size: contain;
+    width: 180px;
+    padding: 10px 0px;
+    border: 1px solid red;
+    display: inline;
+}
+
+img {
+    width: 120px;
+    border: 1px solid red;
+}
